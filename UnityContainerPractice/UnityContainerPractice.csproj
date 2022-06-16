@@ -52,12 +52,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cars\Audi.cs" />
+    <Compile Include="cars\BMW.cs" />
+    <Compile Include="ConstructorInjection\AudiKey.cs" />
+    <Compile Include="ConstructorInjection\BMWKey.cs" />
+    <Compile Include="ConstructorInjection\Demo.cs" />
+    <Compile Include="ConstructorInjection\Driver.cs" />
+    <Compile Include="ConstructorInjection\FordKey.cs" />
+    <Compile Include="ConstructorInjection\ICarKey.cs" />
+    <Compile Include="Driver.cs" />
+    <Compile Include="cars\Ford.cs" />
+    <Compile Include="cars\ICar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterResolve.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

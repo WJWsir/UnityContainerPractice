@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using UnityContainerPractice.ConstructorInjection;
 
 namespace UnityContainerPractice
 {
@@ -10,7 +7,29 @@ namespace UnityContainerPractice
     {
         static void Main(string[] args)
         {
+            //registerResolve();
+            constructorInjection();
+            Console.ReadKey();
 
+        }
+
+        static void registerResolve()
+        {
+            //RegisterResolve.one();
+            //RegisterResolve.two();
+            //RegisterResolve.three();
+            //RegisterResolve.four();
+            //RegisterResolve.five();
+            RegisterResolve.six();
+        }
+
+        static void constructorInjection()
+        {
+            //Demo.one();
+            //Demo.two();
+            Demo.twoAgain();
+            //Demo.three();
+            //Demo.threeInstead();
         }
     }
 }
